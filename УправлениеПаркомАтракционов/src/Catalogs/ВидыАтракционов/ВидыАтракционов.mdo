@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aae5377d-a7eb-4500-859b-c0ea24969fde">
+  <producedTypes>
+    <objectType typeId="17a2623a-6550-4e85-8052-3418ea56b741" valueTypeId="2c9100e1-59e8-40d7-8ac5-001db9efc1b2"/>
+    <refType typeId="21c03a21-3bd9-469d-a3f2-5ad2633b84f4" valueTypeId="86232ffe-4d48-4240-861e-6ef09f370293"/>
+    <selectionType typeId="483c7252-9316-4e73-a81f-1ddf27cee350" valueTypeId="18b9ec6c-0528-4faf-9dd8-8d39b2f75012"/>
+    <listType typeId="264a02fc-7751-4a9c-8c73-70c9077faa22" valueTypeId="c861f961-9d99-465b-87b9-d5b65cbf5cf3"/>
+    <managerType typeId="3b8cb279-db87-43ce-8277-d498185987e9" valueTypeId="5b7b62f8-2686-493d-8e15-f61ddb2e1591"/>
+  </producedTypes>
+  <name>ВидыАтракционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды атракционов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыАтракционов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыАтракционов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
